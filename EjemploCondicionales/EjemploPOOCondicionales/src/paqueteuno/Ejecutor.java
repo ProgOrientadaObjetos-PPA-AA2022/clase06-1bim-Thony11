@@ -50,6 +50,7 @@ public class Ejecutor {
             Hospital hosp1 = new Hospital(nombreHospital, numeroDeCamas, 
                     numeroDeDoctores,
                     presupuestoAnio);
+            
 
             System.out.printf("Datos Hospital\n"
                     + "Nombre del hospital: %s\n"
@@ -62,6 +63,7 @@ public class Ejecutor {
                     hosp1.obtenerNumeroCamas(),
                     hosp1.obtenerNumeroDoctores(),
                     hosp1.obtenerPresupuestoAnual());
+            
         } else {
             if (opcion == 2) {
                 // Ingreso de datos para el tipo seleccionado
